@@ -1,0 +1,16 @@
+#div2{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+#div3{
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+}
+
+#div3:hover{
+    background-color: pink;
+}

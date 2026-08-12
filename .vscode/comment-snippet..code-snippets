@@ -1,0 +1,7 @@
+"HTML Comment": {
+	"prefix": "com",
+	"body": [
+		"<!-- $1 -->"
+	],
+	"description": "Insere um comentário HTML com o cursor no centro"
+}

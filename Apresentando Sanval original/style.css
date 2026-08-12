@@ -5,17 +5,34 @@
 
 #titulo{
   justify-content: center;  /* Centraliza o grupo de fotos */
-  font-size: 20px;
+  font-size: 40px;
   width: 1920px;
-  height: 200px;
-  background-color: brown;
+  height: 50px;
+  background-color: cadetblue;
+  text-align: center;
+   
 }
 
+#subtitulo{
+    justify-content: center;  /* Centraliza o grupo de fotos */
+  font-size: 30px;
+  width: 1920px;
+  height: 100px;
+  background-color: cadetblue;
+  text-align: center;
+   
+}
+
+#textocomum{
+ justify-content: center;  /* Centraliza o grupo de fotos */
+  font-size: 20px;
+
+}
 
 #armazenadorDeFotos{
   display: flex;            /* Alinha as fotos em linha */
   justify-content: center;  /* Centraliza o grupo de fotos */
-  gap: 15px;               /* Define o espaçamento exato entre elas */
+  gap: 150px;               /* Define o espaçamento exato entre elas */
   width: 100%;             /* Garante que o container use o espaço disponível */
 }
 
@@ -30,3 +47,8 @@
 #divRetrato:hover{
  animation: 1s, spin;
 }
+
+#divmestra{
+  background-color: darkgray;
+}
+

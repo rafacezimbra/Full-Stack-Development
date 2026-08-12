@@ -1,0 +1,32 @@
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+#titulo{
+  justify-content: center;  /* Centraliza o grupo de fotos */
+  font-size: 20px;
+  width: 1920px;
+  height: 200px;
+  background-color: brown;
+}
+
+
+#armazenadorDeFotos{
+  display: flex;            /* Alinha as fotos em linha */
+  justify-content: center;  /* Centraliza o grupo de fotos */
+  gap: 15px;               /* Define o espaçamento exato entre elas */
+  width: 100%;             /* Garante que o container use o espaço disponível */
+}
+
+#divRetrato{
+  width: 30%;              /* Faz cada foto ocupar quase um terço do espaço */
+  max-width: 300px;        /* Evita que fiquem grandes demais em telas gigantes */
+  height: auto;            /* Mantém a proporção original da imagem, sem distorcer */
+  object-fit: cover;       /* Corta a imagem elegantemente se as proporções forem diferentes */
+}
+
+
+#divRetrato:hover{
+ animation: 1s, spin;
+}

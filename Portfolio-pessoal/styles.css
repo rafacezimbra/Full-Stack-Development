@@ -1,29 +1,39 @@
 #header{
 
-    background-color: blueviolet;
+    background-color: 	#311151;
     width: 100%;
     
-    
-
 }
-
-.container{
-    background: purple;
-}
-
 .navbar{
     width: 90%;
-    color:purple;
+
     height:200px;
 }
 
 .background{
-    background-color: beige;
+    background-color: #5a3972;
+    color: white;
+
+    font-family: "Courier New";
+}
+
+#behinddiv {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+
+  width: 500px;
+  height: 500px;
+  color:red;
 }
 
 #containerimagens{
-    height: 300px;
+    height: 400px;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
     color:blue;
 }
 
@@ -31,4 +41,12 @@
     color:gainsboro;
     height: 300px;
     width: 30%;
+}
+
+#presentation {
+
+    align-content: center;  
+     height: auto;
+    
+    flex-wrap: wrap;
 }
